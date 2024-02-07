@@ -95,7 +95,7 @@ class OutputScreen(Screen):
         # Close the app
         App.get_running_app().stop()
 
-class Expenses Tracker App(App):
+class Expenses_Tracker_App(App):
     def build(self):
         screen_manager = ScreenManager()
         screen_manager.add_widget(InputScreen(name="input_screen"))
@@ -103,4 +103,4 @@ class Expenses Tracker App(App):
         return screen_manager
 
 if __name__ == "__main__":
-    Expenses Tracker App().run()
+    Expenses_Tracker_App().run()
